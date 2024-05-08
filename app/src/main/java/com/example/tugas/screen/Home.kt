@@ -70,7 +70,7 @@ fun HomeScreen(
     val sepatus by viewModel2.sepatus2.collectAsState()
 
     LazyColumn(
-        verticalArrangement = Arrangement.spacedBy(8.dp),
+        verticalArrangement = Arrangement.spacedBy(10.dp),
         modifier = modifier
     ) {
         item {
